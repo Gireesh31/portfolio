@@ -88,8 +88,12 @@ a{
 /* FOOTER----------------------*/
 footer{
     
-    bottom:0px;
+    
     background-color: rgb(239, 139, 9);
+}
+footer.footers
+{
+    margin-bottom:-50px;
 }
 footer a:hover{
     color: aquamarine;
