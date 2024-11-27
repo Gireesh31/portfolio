@@ -1,0 +1,115 @@
+/*
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+/* GLOBAL------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(243, 243, 201);
+    background-size: cover;
+}
+.download-link{
+    position: fixed;
+    top:0;
+    left:0;
+}
+.btn{
+    background-color: rgb(252, 6, 31);
+    color:bisque
+}
+a{
+    background-color: rgb(242, 172, 242);
+}
+
+
+/* HOME--------------------------------*/
+.home{
+    background-image: url('./placeholder-images/bg-coffee-shop.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.home.contentwrapper{
+    max-width: 1200px;
+    background-color: rgb(244, 244, 8);
+    flex: 1 0 auto;
+    
+}
+.container{
+    padding: 30px;
+    background: rgb(251, 251, 249);
+}
+    
+
+
+
+
+/*RESUME--------------------------------*/
+.resume header::before{
+    background-image: url(../placeholder-images/bg-home-office-city.jpg);
+    display: block;
+    background-size: cover;
+    height: 375px;
+    content:'';
+}
+
+
+
+
+/*PROFILE-------------------------------*/
+
+
+
+/*EDUCATION------------------------------*/
+.education{
+    background-image: url(../placeholder-images/bg-gradient.jpg);
+    
+    background-size: cover;
+}
+
+/*project------*/
+.project{
+    background-image: url(../placeholder-images/project-biz-cards-500px.jpg) ;
+    background-size: cover;
+}
+
+
+
+/* FOOTER----------------------*/
+footer{
+    background-color: rgb(239, 139, 9);
+
+}
+footer a:hover{
+    color: aquamarine;
+}
+.SOCIAL{
+    list-style-type: none;
+}
+.SOCIAL img{
+    width: 32px;
+}
+.SOCIAL li{
+    display: inline;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    flex: 1 0 auto;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+
+
+           
