@@ -56,7 +56,7 @@ a{
 
 /*RESUME--------------------------------*/
 .resume header::before{
-    background-image: url(../placeholder-images/bg-home-office-city.jpg);
+    background-image: url('./placeholder-images/bg-home-office-city.jpg');
     display: block;
     background-size: cover;
     height: 375px;
@@ -72,14 +72,14 @@ a{
 
 /*EDUCATION------------------------------*/
 .education{
-    background-image: url(../placeholder-images/bg-gradient.jpg);
+    background-image: url('./placeholder-images/bg-gradient.jpg');
     
     background-size: cover;
 }
 
 /*project------*/
 .project{
-    background-image: url(../placeholder-images/project-biz-cards-500px.jpg) ;
+    background-image: url('./placeholder-images/project-biz-cards-500px.jpg') ;
     background-size: cover;
 }
 
