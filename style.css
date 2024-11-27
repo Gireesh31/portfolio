@@ -79,7 +79,7 @@ a{
 
 /*project------*/
 .project{
-    background-image: url('./placeholder-images/project-biz-cards-500px.jpg') ;
+    background-image: url('project-biz-cards-500px.jpg') ;
     background-size: cover;
 }
 
