@@ -88,7 +88,7 @@ a{
 /* FOOTER----------------------*/
 footer{
     
-    
+    flex:1 0 auto;
     background-color: rgb(239, 139, 9);
 }
 footer.footers
